@@ -584,29 +584,29 @@
         </div>
         <!--подписка+-->
         <div class="subs-emale">
-          <h3 class="subs-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+          <span class="subs-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</span>
           <form class="subs">
             <label class="emale-fild">
-              <input
-                type="email"
-                class="emale-form"
-                name="user_email"
-                placeholder="E-mail"
-              />
+              <span class="emaie-line">
+                <input
+                  type="email"
+                  class="emale-form"
+                  name="user_email"
+                  placeholder="E-mail"
+                />
+              </span>
             </label>
-            <label class="button-fild">
-              <button type="submit" class="subs-button">
-                Підписатися
-                <svg
-                  aria-label="значок телеграму"
-                  class="subs-send"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
-              </button>
-            </label>
+            <button type="submit" class="subs-button">
+              Підписатися
+              <svg
+                aria-label="значок телеграму"
+                class="subs-send"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -658,7 +658,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-form-line">
+          <label class="modal-form-line-coment">
             <span class="modal-form-span">Коментар</span>
             <textarea
               name="user_coment"
@@ -671,7 +671,6 @@
               type="checkbox"
               class="modal-form-check"
               name="user_policy"
-              required
             />
             <svg class="form-check-icon">
               <use
